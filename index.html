@@ -5,12 +5,21 @@
     <title>旧地址</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
-  <body style="background-color:black">
-    <p style="font-size:20px">亲，我的个人博客（主页）地址已经搬新家了！访问我的个人主页新地址:<a style="font-size:25px"href="http://luoxia.me">www.luoxia.me</a>,通过个人主页导航可以进入到<a href="http://luoxia.me/code">我的技术博客</a>和<a href="http://luoxia.me/life">我的生活随笔</a>，感谢您的支持
+  <style>
+    html,body{
+      width:100%;
+      height:100%;
+    }
+  </style>
+  <body>
+    <div style="width:100%;height:50%;margin:0 auto">
+      <p style="font-size:20px">亲，我的个人博客（主页）地址已经搬新家了！访问我的个人主页新地址:<a style="font-size:25px"href="http://luoxia.me">www.luoxia.me</a>,通过个人主页导航可以进入到<a href="http://luoxia.me/code">我的技术博客</a>和<a href="http://luoxia.me/life">我的生活随笔</a>，感谢您的支持
     </p>
     <p id="showTime" style="margin-top:50px;color:blue;font-size:18px">
         客官，5秒后我将自动跳转到新地址www.luoxia.me哦!
     </p>
+    </div>
+    
     <script>
         setTimeout(function(){
             window.location = "http://luoxia.me";
